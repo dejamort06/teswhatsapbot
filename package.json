@@ -6,7 +6,6 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@venom-bot/core": "4.0.5",
-    "fs": "^0.0.1-security"
+    "venom-bot": "^4.0.0"
   }
 }
