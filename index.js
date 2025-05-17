@@ -1,10 +1,6 @@
-const { createBot } = require('@venom-bot/core');
-const fs = require('fs');
+const venom = require('venom-bot');
 
-createBot({
-  session: 'whatsapp-session',
-  disableWelcome: true,
-}).then((bot) => start(bot));
+venom.create().then((bot) => start(bot));
 
 function start(bot) {
   bot.onMessage(async (message) => {
